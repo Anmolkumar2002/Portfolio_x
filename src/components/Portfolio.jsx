@@ -47,7 +47,7 @@ const Portfolio = () => {
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-3 my-5'>
                     {
                         cardItem.map(({id,logo,name}) => (
-                            <div className='md:w-[300px] md:h-[300px] border-[2px] rounded-lg sgadow-lg p-1 cursor-pointer hover:scale-110 duration-200' key={id}>
+                            <div className='md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-200' key={id}>
                                 <img src={logo} className='w-[120px] h-[120px] p-1 rounded-full border-[2px] ' alt="" />
                                 <div>
                                     <div className='font-bold text-xl mb-2 px-6'>{name}</div>
