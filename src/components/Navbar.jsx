@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import pics from "../../public/photo.avif"
+import pics from "../image/photo.avif"
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 
